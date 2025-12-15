@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - SkillEdge Plus Academy</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <!-- LOGO IMAGE -->
+            <img src="logo.png" 
+                 alt="SkillEdge Plus Academy Logo" 
+                 class="me-2"
+                 style="width: 70px; height: 70px; object-fit: contain;">
+
+            <span class="fw-bold">SkillEdge Plus Academy</span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="workshops.html">Workshops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center text-white">
+                    <h1 class="display-4 fw-bold mb-3" data-aos="fade-down">Get in Touch</h1>
+                    <p class="lead" data-aos="fade-up">Have questions? We'd love to hear from you!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Cards -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="contact-card text-center h-100 p-4 bg-white rounded-4 shadow-hover">
+                        <div class="contact-icon-large mb-3">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Phone</h4>
+                        <a href="tel:+917355694223" class="contact-link">+91 7355694223</a>
+                        <p class="text-muted small mt-2">Mon-Friday: 10 AM - 6 PM</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="contact-card text-center h-100 p-4 bg-white rounded-4 shadow-hover">
+                        <div class="contact-icon-large mb-3">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Email</h4>
+                        <a href="mailto:skilledgeplusacademy@gmail.com" class="contact-link">skilledgeplusacademy@gmail.com</a>
+                        <p class="text-muted small mt-2">We reply within 24 hours</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="contact-card text-center h-100 p-4 bg-white rounded-4 shadow-hover">
+                        <div class="contact-icon-large mb-3">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Instagram</h4>
+                        <a href="https://instagram.com/skilledge_plus_academy" target="_blank" class="contact-link">@skilledge_plus_academy</a>
+                        <p class="text-muted small mt-2">Follow for updates</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="contact-card text-center h-100 p-4 bg-white rounded-4 shadow-hover">
+                        <div class="contact-icon-large mb-3">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">WhatsApp</h4>
+                        <a href="https://wa.me/917355694223" target="_blank" class="contact-link">+91 7355694223</a>
+                        <p class="text-muted small mt-2">Quick responses</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Map -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <!-- Contact Form -->
+<div class="col-lg-6" data-aos="fade-up">
+    <h2 class="display-6 fw-bold section-title mb-4">Send Us a Message</h2>
+    <p class="text-muted mb-4">Fill out the form below and we'll get back to you as soon as possible.</p>
+
+    <form id="contactForm" class="contact-form">
+        <div class="mb-4">
+            <label for="name" class="form-label fw-semibold">Full Name *</label>
+            <input type="text" class="form-control form-control-lg" id="name" name="name" placeholder="Enter your full name" required>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="form-label fw-semibold">Email Address *</label>
+            <input type="email" class="form-control form-control-lg" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
+        <div class="mb-4">
+            <label for="phone" class="form-label fw-semibold">Phone Number *</label>
+            <input type="tel" class="form-control form-control-lg" id="phone" name="phone" placeholder="Enter your phone number" required>
+        </div>
+        <div class="mb-4">
+            <label for="subject" class="form-label fw-semibold">Subject *</label>
+            <select class="form-select form-select-lg" id="subject" name="subject" required>
+                <option value="">Choose a subject...</option>
+                <option value="Workshop Inquiry">Workshop Inquiry</option>
+                <option value="College Partnership">College Partnership</option>
+                <option value="General Question">General Question</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="mb-4">
+            <label for="message" class="form-label fw-semibold">Message *</label>
+            <textarea class="form-control form-control-lg" id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg rounded-pill px-5 w-100">
+            <i class="fas fa-paper-plane me-2"></i>Send Message
+        </button>
+        <div id="formMessage" class="mt-3"></div>
+    </form>
+</div>
+
+                <!-- Info Section -->
+                <div class="col-lg-6" data-aos="fade-up">
+                    <h2 class="display-6 fw-bold section-title mb-4">Why Contact Us?</h2>
+                    
+                    <div class="info-box mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="info-icon me-3">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-2">Workshop Inquiries</h5>
+                                <p class="text-muted mb-0">Get details about our upcoming workshops, schedules, and registration process.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="info-icon me-3">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-2">College Partnerships</h5>
+                                <p class="text-muted mb-0">Interested in organizing workshops for your institution? Let's collaborate!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="info-icon me-3">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-2">Custom Training</h5>
+                                <p class="text-muted mb-0">Need customized training programs? We can design workshops tailored to your needs.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="info-box mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="info-icon me-3">
+                                <i class="fas fa-question-circle"></i>
+                            </div>
+                            <div>
+                                <h5 class="fw-bold mb-2">General Questions</h5>
+                                <p class="text-muted mb-0">Have questions about our courses, pricing, or certificates? We're here to help!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Quick Contact -->
+                    <div class="quick-contact-box p-4 rounded-4 bg-gradient-primary text-white mt-5" data-aos="zoom-in">
+                        <h5 class="fw-bold mb-3">Need Immediate Assistance?</h5>
+                        <p class="mb-3">Call or WhatsApp us for quick responses</p>
+                        <div class="d-flex gap-3">
+                            <a href="tel:+917355694223" class="btn btn-light rounded-pill px-4">
+                                <i class="fas fa-phone me-2"></i>Call Now
+                            </a>
+                            <a href="https://wa.me/917355694223" target="_blank" class="btn btn-outline-light rounded-pill px-4">
+                                <i class="fab fa-whatsapp me-2"></i>WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Hours -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="text-center mb-4" data-aos="fade-up">
+                        <h2 class="display-6 fw-bold section-title">Office Hours</h2>
+                        <p class="text-muted">We're available to assist you during these hours</p>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                            <div class="hours-card p-4 bg-white rounded-4 text-center">
+                                <i class="fas fa-calendar-week fs-3 text-primary mb-3"></i>
+                                <h5 class="fw-bold mb-2">Weekdays</h5>
+                                <p class="text-muted mb-0">Monday - Friday</p>
+                                <p class="fs-5 fw-bold text-primary mt-2">10:00 AM - 6:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                            <div class="hours-card p-4 bg-white rounded-4 text-center">
+                                <i class="fas fa-calendar-day fs-3 text-primary mb-3"></i>
+                                <h5 class="fw-bold mb-2">Weekend</h5>
+                                <p class="text-muted mb-0">Saturday</p>
+                                <p class="fs-5 fw-bold text-primary mt-2">11:00 AM - 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-4">
+                        <p class="text-muted"><i class="fas fa-info-circle me-2"></i>Closed on Sundays and public holidays</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="display-6 fw-bold section-title">Frequently Asked Questions</h2>
+                <p class="text-muted">Quick answers to common questions</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item mb-3 border-0 rounded-4 shadow-sm" data-aos="fade-up">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How do I register for a workshop?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Visit our Workshops page, select your preferred workshop, and click the "Register Now" button. You'll be redirected to a registration form where you can complete your enrollment.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 rounded-4 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    What are the payment methods?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We accept various payment methods including UPI, credit/debit cards, net banking, and digital wallets. Payment details will be shared after registration.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 rounded-4 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Will I receive a certificate?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! All participants receive a certificate of completion after successfully attending the workshop. Certificates are digitally signed and can be shared on LinkedIn.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item mb-3 border-0 rounded-4 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Can colleges organize workshops?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! We offer custom workshop programs for colleges and institutions. Contact us for details on bulk registrations, custom content, and special pricing for educational institutions.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item border-0 rounded-4 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    What if I miss a workshop?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    All workshops are recorded and shared with registered participants. You'll receive access to the recording, notes, and project files even if you miss the live session.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center text-white" data-aos="zoom-in">
+                    <h2 class="display-6 fw-bold mb-3">Still Have Questions?</h2>
+                    <p class="lead mb-4">We're here to help! Reach out to us through any of the channels above</p>
+                    <a href="#" class="btn btn-light btn-lg px-5 rounded-pill" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+                        <i class="fas fa-arrow-up me-2"></i>Back to Top
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="d-flex align-items-center mb-3">
+                        <!-- LOGO IMAGE -->
+            <img src="logo.png" 
+                 alt="SkillEdge Plus Academy Logo" 
+                 class="me-2"
+                 style="width: 60px; height: 60px; object-fit: contain;">
+                        <h5 class="mb-0 text-white fw-bold">SkillEdge Plus Academy</h5>
+                    </div>
+                    <p class="text-white-50">Empowering students with practical tech skills for a successful career</p>
+                    <div class="social-links mt-3">
+                        <a href="tel:+917355694223" class="me-3">
+    <i class="fas fa-phone"></i>
+</a>
+<a href="mailto:skilledgeplusacademy@gmail.com" class="me-3">
+    <i class="fas fa-envelope"></i>
+</a>
+<a href="https://instagram.com/skilledge_plus_academy" target="_blank" class="me-3">
+    <i class="fab fa-instagram"></i>
+</a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-6">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="workshops.html">Workshops</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6">
+                    <h5 class="text-white mb-3">Workshops</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="workshops.html#python">Python</a></li>
+                        <li><a href="workshops.html#java">Java OOP</a></li>
+                        <li><a href="workshops.html#android">Android</a></li>
+                        <li><a href="workshops.html#ai">AI Tools</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="text-white mb-3">Contact Info</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><i class="fas fa-phone me-2"></i>+91 7355694223</li>
+                        <li><i class="fas fa-envelope me-2"></i>skilledgeplusacademy@gmail.com</li>
+                        <li><i class="fab fa-instagram me-2"></i>@skilledge_plus_academy</li>
+                        <li><i class="fa-solid fa-globe me-2"></i>www.skilledgeplusacademy.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-white">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="mb-0 text-white-50">@ 2025 SkillEdge Plus Academy.
+                        Registered under MSME, Govt. of India.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script src="contact-form.js"></script>
+<script>
+    AOS.init({ duration: 800, once: true });
+</script>
+</body>
+</html>
