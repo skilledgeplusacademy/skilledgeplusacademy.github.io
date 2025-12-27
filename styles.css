@@ -483,6 +483,62 @@ img {
     color: var(--secondary-color);
 }
 
+
+
+
+
+
+
+
+/* Contact Cards Fix */
+.contact-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Prevent text overflow */
+.contact-card a,
+.contact-card p {
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Icon styling */
+.contact-icon-large i {
+    font-size: 2.5rem;
+    color: #0d6efd;
+}
+
+/* Hover fix */
+.shadow-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.shadow-hover:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+.contact-link {
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0d6efd;
+}
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
 /* Info Box */
 .info-box {
     padding: 1.5rem;
